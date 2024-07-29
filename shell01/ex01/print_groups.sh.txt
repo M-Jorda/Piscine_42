@@ -1,1 +1,2 @@
 id -nG $FT_USER | tr ' ' ','
+echo $(groups $FT_USER | tr ' ' ',' | sed 's/^.*: //')
