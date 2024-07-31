@@ -1,0 +1,4 @@
+# Détection de fichiers de type 42
+0       string          !:42                                            
+#42 file type
+#file -m ft_magic <votre_fichier>
