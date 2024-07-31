@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// Fonction qui modifie une valeur via un pointeur
+void increment(int *value) {
+    (*value)++;
+}
+
+int main() {
+    int num = 5;
+    printf("Before: %d\n", num);
+
+    increment(&num);
+
+    printf("After: %d\n", num);
+    return 0;
+}

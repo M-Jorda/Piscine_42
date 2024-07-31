@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+// Fonction qui retourne un pointeur vers une structure allouée dynamiquement
+Point* create_point(int x, int y) {
+    Point *p = (Point *)malloc(sizeof(Point));
+    p->x = x;
+    p->y = y;
+    return p;
+}
+
+int main() {
+    Point *p = create_point(10, 20);
+
+    printf("Point: (%d, %d)\n", p->x, p->y);
+
+    free(p);  // Libération de la mémoire allouée
+    return 0;
+}

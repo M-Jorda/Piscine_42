@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Fonction qui retourne un pointeur vers une chaîne de caractères allouée dynamiquement
+char* duplicate_string(const char *src) {
+    char *dest = (char *)malloc(strlen(src) + 1);
+    strcpy(dest, src);
+    return dest;
+}
+
+int main() {
+    const char *original = "Hello, World!";
+    char *copy = duplicate_string(original);
+
+    printf("Original: %s\n", original);
+    printf("Copy: %s\n", copy);
+
+    free(copy);  // Libération de la mémoire allouée
+    return 0;
+}
