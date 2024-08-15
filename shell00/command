@@ -1,0 +1,3 @@
+echo -e write the things > command
+echo -e write an other thing >> command
+git reset <file> or <.> != git add .
