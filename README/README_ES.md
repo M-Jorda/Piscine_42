@@ -134,12 +134,13 @@ Presentación: El Rush00 es un proyecto colaborativo en 42 que tiene como objeti
 
 Diferencias entre los Ejercicios 00 a 04:
 
-Ejercicio 00: Generar un rectángulo sólido de caracteres específicos.
-Ejercicio 01: Crear un rectángulo con esquinas redondeadas y bordes específicos.
-Ejercicio 02: Producir un rectángulo con esquinas redondeadas y bordes diferentes.
-Ejercicio 03: Generar un rectángulo con esquinas redondeadas y bordes diferentes, incluyendo espacios internos.
-Ejercicio 04: Producir un rectángulo con esquinas redondeadas, bordes diferentes y espacios internos, con dimensiones variables.
-Cada ejercicio introduce variaciones en los patrones ASCII a generar, aumentando la complejidad y los desafíos técnicos.
+- **Ejercicio 00:** Generar un rectángulo sólido de caracteres específicos.
+- **Ejercicio 01:** Crear un rectángulo con esquinas redondeadas y bordes específicos.
+- **Ejercicio 02:** Producir un rectángulo con esquinas redondeadas y bordes diferentes.
+- **Ejercicio 03:** Generar un rectángulo con esquinas redondeadas y bordes diferentes, incluyendo espacios internos.
+- **Ejercicio 04:** Producir un rectángulo con esquinas redondeadas, bordes diferentes y espacios internos, con dimensiones variables.
+
+Cada ejercicio introduce variaciones en los patrones ASCII a generar, aumentando así la complejidad y los desafíos técnicos.
 
 ## Conclusión
 La piscina de 42 es una experiencia de aprendizaje gratificante que te prepara para los desafíos del desarrollo de software. Cada ejercicio está diseñado para fortalecer tus habilidades y familiarizarte con conceptos clave en el lenguaje C. ¡Disfruta de tu viaje de aprendizaje y siéntete libre de explorar más!

@@ -133,12 +133,13 @@ Presentation: The Rush00 is a collaborative project at 42 that aims to create a 
 
 Differences between Exercises 00 to 04:
 
-Exercise 00: Generate a solid rectangle of specific characters.
-Exercise 01: Create a rectangle with rounded corners and specific edges.
-Exercise 02: Produce a rectangle with rounded corners and different edges.
-Exercise 03: Generate a rectangle with rounded corners and different edges, including internal spaces.
-Exercise 04: Produce a rectangle with rounded corners, different edges, and internal spaces, with variable dimensions.
-Each exercise introduces variations in the ASCII patterns to be generated, increasing the complexity and technical challenges.
+- **Exercise 00:** Generate a solid rectangle of specific characters.
+- **Exercise 01:** Create a rectangle with rounded corners and specific edges.
+- **Exercise 02:** Produce a rectangle with rounded corners and different edges.
+- **Exercise 03:** Generate a rectangle with rounded corners and different edges, including internal spaces.
+- **Exercise 04:** Produce a rectangle with rounded corners, different edges, and internal spaces, with variable dimensions.
+
+Each exercise introduces variations in the ASCII patterns to be generated, thereby increasing the complexity and technical challenges
 
 ## Conclusion
 The 42 piscine is a rewarding learning experience that prepares you for the challenges of software development. Each exercise is designed to strengthen your skills and familiarize you with key concepts in the C language. Enjoy your learning journey and feel free to explore further!

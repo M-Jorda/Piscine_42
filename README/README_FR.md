@@ -133,11 +133,12 @@ Le Rush00 est un projet collaboratif de l'école 42 visant à créer un programm
 
 Différences entre les exercices 00 à 04 :
 
-Exercice 00 : Générer un rectangle plein de caractères spécifiques.
-Exercice 01 : Créer un rectangle avec des coins arrondis et des bords spécifiques.
-Exercice 02 : Produire un rectangle avec des coins arrondis et des bords différents.
-Exercice 03 : Générer un rectangle avec des coins arrondis et des bords différents, incluant des espaces internes.
-Exercice 04 : Produire un rectangle avec des coins arrondis, des bords différents et des espaces internes, avec des dimensions variables.
+- **Exercice 00** : Générer un rectangle plein de caractères spécifiques.
+- **Exercice 01** : Créer un rectangle avec des coins arrondis et des bords spécifiques.
+- **Exercice 02** : Produire un rectangle avec des coins arrondis et des bords différents.
+- **Exercice 03** : Générer un rectangle avec des coins arrondis et des bords différents, incluant des espaces internes.
+- **Exercice 04** : Produire un rectangle avec des coins arrondis, des bords différents et des espaces internes, avec des dimensions variables.
+
 Chaque exercice introduit des variations dans les motifs ASCII à générer, augmentant ainsi la complexité et les défis techniques.
 
 ## Conclusion
