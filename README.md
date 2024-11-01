@@ -1,5 +1,9 @@
 # 42 Piscine README
 
+## Links
+- [Version française](README/README_FR.md)
+- [Versión en Español](README/README_ES.md)
+
 ## Introduction
 Welcome to the 42 piscine repository! This project is designed to introduce you to programming in C and to develop your problem-solving skills. Through various exercises, you will learn to manipulate fundamental concepts of the C language, manage memory, and apply good coding practices.
 
