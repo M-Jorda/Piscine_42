@@ -129,15 +129,16 @@ Bienvenue dans le dépôt de la piscine de 42 ! Ce projet a été conçu pour vo
 
 ## Rush00
 ### Exercices réalisés
-- (Décris les exercices réalisés pour Rush00 ici)
+Le Rush00 est un projet collaboratif de l'école 42 visant à créer un programme en C générant des motifs ASCII spécifiques en fonction des dimensions fournies en arguments. Ce projet évalue la capacité des étudiants à travailler en équipe, à gérer un projet de développement et à produire un code conforme aux spécifications.
 
-## Rush01
-### Exercices réalisés
-- (Décris les exercices réalisés pour Rush01 ici)
+Différences entre les exercices 00 à 04 :
 
-## Rush02
-### Exercices réalisés
-- (Décris les exercices réalisés pour Rush02 ici)
+Exercice 00 : Générer un rectangle plein de caractères spécifiques.
+Exercice 01 : Créer un rectangle avec des coins arrondis et des bords spécifiques.
+Exercice 02 : Produire un rectangle avec des coins arrondis et des bords différents.
+Exercice 03 : Générer un rectangle avec des coins arrondis et des bords différents, incluant des espaces internes.
+Exercice 04 : Produire un rectangle avec des coins arrondis, des bords différents et des espaces internes, avec des dimensions variables.
+Chaque exercice introduit des variations dans les motifs ASCII à générer, augmentant ainsi la complexité et les défis techniques.
 
 ## Conclusion
 La piscine de 42 est une expérience d'apprentissage enrichissante qui vous prépare aux défis du développement logiciel. Chaque exercice a été conçu pour renforcer vos compétences et vous familiariser avec les concepts clés du langage C. Profitez de votre parcours d'apprentissage et n'hésitez pas à explorer davantage !
