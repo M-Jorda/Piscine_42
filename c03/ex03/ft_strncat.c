@@ -1,27 +1,31 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/07 17:38:42 by jjorda            #+#    #+#             */
+/*   Updated: 2024/08/08 13:11:19 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-char *ft_strncat(char *dest, char *src, unsigned int nb)
+char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-    int i;
-    int j;
+	int				i;
+	unsigned int	j;
 
-    i = 0;
-    while (dest[i] != '\0')
-    {
-        i++;
-    }
-    j = 0;
-    while (j < nb)
-    {
-        dest[i + j] = src[i];
-        j++;
-    }
-    dest[i + j] = '\0';
-    return (dest);
-}
-
-int main(int args, char **argv)
-{
-    ft_strncat(argv[1], argv[2], argv[3]);
-    printf("%s", argv[1]);
+	i = 0;
+	while (dest[i])
+	{
+		i++;
+	}
+	j = 0;
+	while (nb-- && src[j])
+	{
+		dest[i + j] = src[j];
+		j++;
+	}
+	dest[i + j] = '\0';
+	return (dest);
 }

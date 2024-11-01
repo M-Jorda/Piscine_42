@@ -1,14 +1,25 @@
-#include <unistd.h>  // Pour la fonction write()
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <jjorda@student.42malaga.com>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/29 11:31:24 by jjorda            #+#    #+#             */
+/*   Updated: 2024/07/29 17:52:37 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-// Fonction récursive pour afficher les lettres de 'a' à 'z'
-void print_char(char c) {
-    if (c > 'z') {
-        return;  // Condition de terminaison : si le caractère est au-delà de 'z', arrêter la récursion
-    }
-    write(1, &c, 1);  // Afficher le caractère courant
-    print_char(c + 1);  // Appeler la fonction avec le caractère suivant
-}
+#include <unistd.h>
 
-void ft_print_alphabet(void) {
-    print_char('a');  // Démarrer la récursion avec 'a'
+void	ft_print_alphabet(void)
+{
+	char	letter;
+
+	letter = 'a';
+	while (letter <= 'z')
+	{
+		write(1, &letter, 1);
+		letter++;
+	}
 }

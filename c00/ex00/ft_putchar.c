@@ -1,14 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <jjorda@student.42malaga.com>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/25 15:47:43 by jjorda            #+#    #+#             */
+/*   Updated: 2024/07/25 18:22:21 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <unistd.h>
 
-// Déclaration de la fonction
-void ft_putchar(char c) {
-    write(1, &c, 1);
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
 }
-
-int main() {
-    ft_putchar('A');  // Affiche le caractère 'A'
-    return 0;
-}
-
-
-cmd : gcc -o main main.c

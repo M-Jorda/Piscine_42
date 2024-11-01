@@ -1,30 +1,25 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/07 17:36:01 by jjorda            #+#    #+#             */
+/*   Updated: 2024/08/09 11:29:29 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_strncmp(char *s1, char *s2, unsigned int n)
+int	ft_strncmp(char *s1, char *s2, unsigned int n)
 {
-    int i;
-    int s1_ascii;
-    int s2_ascii;
-
-    while (i < n) 
-    {
-        s1_ascii = s1[i] - 0;
-        s2_ascii = s2[i] - 0;
-        if (s1_ascii < s2_ascii)
-        {
-            return (1);
-        }
-        else if (s1_ascii > s2_ascii)
-        {
-            return (-1);
-        }
-        i++;
-    }
-    return (0);
-}
-
-int main(int argc, char **argv)
-{
-    printf("%d", ft_strncmp(argv[1], argv[2], argv[3]));
-    return 0;
+	if (n == 0)
+	{
+		return (0);
+	}
+	while (--n && (*s1 && *s2) && (*s1 == *s2))
+	{
+		s1++;
+		s2++;
+	}
+	return (*s1 - *s2);
 }

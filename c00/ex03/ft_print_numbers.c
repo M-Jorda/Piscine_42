@@ -1,10 +1,25 @@
-#include <unistd.h>  // Pour la fonction write()
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <jjorda@student.42malaga.com>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/25 20:22:14 by jjorda            #+#    #+#             */
+/*   Updated: 2024/07/25 20:23:38 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void ft_print_numbers(void) {
-    char c;
+#include <unistd.h>
 
-    // Boucle de '0' à '9'
-    for (c = '0'; c <= '9'; c++) {
-        write(1, &c, 1);  // Afficher le caractère courant
-    }
+void	ft_print_numbers(void)
+{
+	char	letter;
+
+	letter = '0';
+	while (letter <= '9')
+	{
+		write(1, &letter, 1);
+		letter++;
+	}
 }

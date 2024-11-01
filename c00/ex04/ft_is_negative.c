@@ -1,10 +1,25 @@
-#include <unistd.h>  // Pour la fonction write()
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <jjorda@student.42malaga.com>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/07/25 20:22:14 by jjorda            #+#    #+#             */
+/*   Updated: 2024/07/29 13:14:25 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void ft_is_negative(int n) {
-    // Vérifier si n est négatif
-    if (n < 0) {
-        write(1, "N", 1);  // Afficher 'N' pour un nombre négatif
-    } else {
-        write(1, "P", 1);  // Afficher 'P' pour un nombre positif ou nul
-    }
+#include <unistd.h>
+
+void	ft_is_negative(int n)
+{
+	if (n < 0)
+	{
+		write(1, "N", 1);
+	}
+	else
+	{
+		write(1, "P", 1);
+	}
 }

@@ -1,18 +1,23 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/10 23:35:58 by jjorda            #+#    #+#             */
+/*   Updated: 2024/08/10 23:36:01 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        i++;
-    }
-    return (i);
-}
-
-int main(int args, char **argv)
-{
-    printf("size : %d", ft_strlen(argv[1]));
+	i = 0;
+	while (str[i])
+	{
+		i++;
+	}
+	return (i);
 }

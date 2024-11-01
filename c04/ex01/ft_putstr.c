@@ -1,17 +1,25 @@
-void ft_putstr(char *str)
-{
-    int i;
-    char letter;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jjorda <marvin@42.fr>                      +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/08/10 23:37:31 by jjorda            #+#    #+#             */
+/*   Updated: 2024/08/10 23:37:35 by jjorda           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        letter = str[i];
-        write(1, &letter, 1);
-    }
-}
+#include <unistd.h>
 
-int main(int args, char **argv)
+void	ft_putstr(char *str)
 {
-    ft_putstr(argv[1]);
+	char	letter;
+
+	while (*str)
+	{
+		letter = *str;
+		write(1, &letter, 1);
+		str++;
+	}
 }

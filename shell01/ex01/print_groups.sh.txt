@@ -1,6 +1,0 @@
-id -nG $FT_USER | tr ' ' ','
-echo $(groups $FT_USER | tr ' ' ',' | sed 's/^.*: //')
-export FT_USER=nours
-export FT_USER=daemon
-unset FT_user
-groups $FT_USER | cut -d: -f2 | tr -d ' ' | tr ' ' ',' | sed 's/,,*/,/g'
